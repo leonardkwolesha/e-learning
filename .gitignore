@@ -1,0 +1,47 @@
+# Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.cache/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# ML / Data
+*.pkl
+*.h5
+*.model
+mlruns/
+
+# Misc
+skills-lock.json
+.agents/
